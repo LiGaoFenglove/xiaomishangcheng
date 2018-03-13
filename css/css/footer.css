@@ -1,0 +1,36 @@
+footer {
+  height: 0.52rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div span {
+  font-size: 0.10rem;
+}
+
+footer div i {
+  text-align: center;
+  font-size: 0.25rem !important;
+  width: 0.37rem;
+  height: 0.3rem;
+}
+
+footer div .i_1 {
+  text-align: center;
+  font-size: 0.25rem !important;
+  width: 0.37rem;
+  height: 0.3rem;
+}
+
+footer .active {
+  background: red;
+}
+
+/*# sourceMappingURL=footer.css.map */

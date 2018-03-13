@@ -1,0 +1,191 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul,ol,li{
+    list-style:none;
+}
+a,u{
+    text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:16px;
+    font-weight:100;
+}
+i,em{
+    font-style:normal;
+}
+b,strong{
+    font-weight:100;
+}
+img{
+    border:0;
+    display:block;
+}
+html{
+    font-size:26.67vw;
+}
+html,body{
+    height:100%;
+}
+body{
+    display:flex;
+    flex-direction:column;
+}
+#app{
+     font-size:26.67vw;
+    height:100%;
+     display: flex;
+     flex-direction:column;
+     .app_main{
+        display: flex;
+        flex-direction:column;
+        height:100%;
+     }
+   
+}
+article{
+    
+    flex:1;
+    overflow: auto;
+    flex-direction:column;
+    flex-wrap:wrap;
+    .swiper-wraper{
+        a{
+             width: 100%;
+            img{
+                
+            }
+        }
+    }
+    .nav{
+        display: flex;
+        height: .79rem;
+        justify-content:space-around;
+        a{
+
+            img{
+                width: 0.74rem;
+            }
+        }
+    }
+    // 分割线
+    .line{
+        height: 0.1rem;
+        border-bottom: 0.1rem solid rgb(245, 245, 245);
+        background-color: rgb(245, 245, 245);
+    }
+    .module_1{
+        height: 2.64rem;
+        display: flex;
+         justify-content:space-between;
+        .module_1_l{
+            a{
+                img{
+                    width: 1.86rem;
+                }
+            }
+        }
+        .module_1_r{
+            display: flex;
+            flex-direction:column;
+            justify-content:space-between;
+            img{
+                width: 1.86rem;
+            }
+        }
+    }
+    .module_2{
+        img{
+            width: 100%;
+        }
+    }
+    // 闪购
+    .seckill_box{
+        .seckill_header{
+            img{
+                width:100%;
+            }
+        }
+        .seckill_body{
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+            text-align: left;
+            height: 1.29rem;
+            display: flex;
+          -webkit-overflow-scrolling: touch;
+            .seckill_item{
+                display: block;
+                width: 1.01rem;
+                height: 1.29rem;
+               margin-left: 0.07rem;
+                .img_box{
+                    img{
+
+                        width: 1.01rem;
+                    }
+                }
+                .info_box{
+                    height: 0.28rem;
+                    display: flex;
+                    line-height: 0.28rem;
+                    text-align: center;
+                   .span_1{
+                        margin-left: 0.7em;
+                        font-size: .14rem;
+                        color: #ea625b;
+                   }
+                   .span_2{
+                        margin-left: 0.7em;
+                        font-size: .1rem;
+                        vertical-align: baseline;
+                        color: #676767;
+                        text-decoration: line-through;
+                   }
+                }
+            }
+             ::-webkit-scrollbar {
+                 display: none;
+            }
+        }
+         ::-webkit-scrollbar {
+                 display: none;
+            }
+    }
+    // 更多小米产品
+    .box_flex{
+        //display: flex;
+        background: #fff;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        font-size: .14rem;
+        text-align: center;
+        a{
+            color: rgba(0,0,0,.6);
+        }
+    }
+    // 其他产品
+    .else_product_1{
+        display: flex;
+        justify-content: space-between;
+        a{
+            img{
+                width: 1.865rem;
+            }
+        }
+    }
+    .else_product_2{
+        margin-top: 0.02rem;
+        display: flex;
+        justify-content: space-between;
+        a{
+            img{
+                width: 1.865rem;
+            }
+        }
+    }
+}
+   

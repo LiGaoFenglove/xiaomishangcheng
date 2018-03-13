@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a, u {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+i, em {
+  font-style: normal;
+}
+
+b, strong {
+  font-weight: 100;
+}
+
+img {
+  border: 0;
+  display: block;
+}
+
+html {
+  font-size: 26.67vw;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#app {
+  font-size: 26.67vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#top {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+#top #header {
+  display: flex;
+  height: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#top #header .header_left {
+  display: flex;
+  margin-left: 0.2rem;
+}
+#top #header .header_left a {
+  display: flex;
+}
+#top #header .header_left a i {
+  display: flex;
+  color: #666;
+  font-size: 0.2rem;
+}
+#top #header .header_middle a {
+  color: #666;
+  display: flex;
+  font-size: 0.17rem;
+}
+#top #header .header_right {
+  margin-right: 0.2rem;
+}
+#top #header .header_right i {
+  color: #666;
+  display: flex;
+  font-size: 0.25rem;
+}
+#top article {
+  flex: 1;
+}
+#top article #LoutiNav {
+  position: fixed;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  left: 0;
+  width: 0.78rem;
+  border-right: 1px solid #efefef;
+  overflow: auto;
+}
+#top article #LoutiNav ul li {
+  height: 1rem;
+  font-size: 0.25rem !important;
+}
+#top article #LoutiNav ul li span {
+  font-size: 0.25rem !important;
+}
+#top article #main {
+  position: fixed;
+  right: 0;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  overflow: auto;
+}
+#top article #main .Louti {
+  height: 1rem;
+  font-size: 0.25rem !important;
+}
+
+/*# sourceMappingURL=classify.css.map */
